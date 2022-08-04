@@ -1,12 +1,19 @@
-import Cardlist from './components/Cardlist/Cardlist';
-import './App.css';
+import Item4 from "./components/Item4/Item4";
 
-function App({color}) {
+
+import "./App.css";
+
+
+
+
+
+function App() {
   return (
     <div className="App">
-    <div className='cardlist-top'> 
-      <Cardlist {...color}/>
-    </div></div>
+      <div className="cardlist-top">
+       <Item4></Item4>
+      </div>
+    </div>
   );
 }
 

@@ -1,8 +1,8 @@
 import './index.css'
 import Card from '../Card'
 
-const Item1 =({prop})=> {
-return (<div className=""> <Card {...prop}/></div>)
+const Item1 =({color})=> {
+return (<div className="item1"><Card color={color}/> </div>)
 
 
 }
