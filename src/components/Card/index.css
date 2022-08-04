@@ -1,0 +1,9 @@
+.pantone {height: 300px;
+width: 9.375rem;}
+h1 {color:white;}
+.color {height: 200px;}
+.cardlist {display: flex;
+flex-direction: row;
+gap:20px;
+justify-content: center;
+margin: 50px auto;}
