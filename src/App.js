@@ -1,11 +1,11 @@
 import Cardlist from './components/Cardlist/Cardlist';
 import './App.css';
 
-function App() {
+function App({color}) {
   return (
     <div className="App">
     <div className='cardlist-top'> 
-      <Cardlist color="red"/>
+      <Cardlist {...color}/>
     </div></div>
   );
 }
